@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/port.css">
+    <title>Ahmed Nasser</title>
+    <body>
+
+    <header>
+    <div class="user">
+        <img src="./Photo/2.png">
+        <h3 class="name">Ahmed Nasser</h3>
+        <p class="post">Programmer and Developer</p>
+    </div>
+     
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+<section class="home" id="home">
+<h3 class="name">Hello...</h3>
+<h3 class="name">my name is <span>Ahmed nasser</span></h3>
+<h3 class="post">i am a <span class="typing-text">web developer</span></h3>
+
+<a href="#contact"><button class="btn">hire me</button></a>
+
+<div class="share">
+    <a href="https://www.facebook.com/ahmed.timo.969" class="fab fa-facebook-f"></a>
+    <a href="https://www.instagram.com/ahmed_nasser189/" class="fab fa-instagram"></a>
+    <a href="https://twitter.com/anasser69" class="fab fa-twitter"></a>
+    <a href="https://www.linkedin.com/in/ahmed-nasser-693b49256/" class="fab fa-linkedin"></a>
+</div>
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading">about me</h1>
+
+    <div class="content">
+        <h3 class="name">my name is <span>ahmed nasser</span></h3>
+<p>iam a computer science student in my third year and i have an experience in web designing and making projects using diffrent languages.</p>
+<p> i have made some projects in web designing using web programming languages (html,css,js) and made library desktop app using java and oracel database and resturant delivery like (talabat) desktop app using c# and database. </p>
+    </div>
+
+    <div class="skills">
+        <div class="progress">
+            <h3>html<span>95%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>css<span>85%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>js<span>85%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        <div class="progress">
+            <h3>database<span>75%</span></h3>
+            <div class="bar"><span></span></div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- section education start -->
+<section class="education" id="education">
+    <h1 class="heading">my education</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="year">2020 - 2024</div>
+            <h3>computer science</h3>
+            <p>4 years college in computer science in cairo high institue and i am now in my third </p>
+        </div>
+        <div class="box">
+            <div class="year">2020 - 2021</div>
+            <h3>front end develop</h3>
+            <p>self study in one year of html and css</p>
+        <div class="box">
+            <div class="year">2021 - 2022</div>
+            <h3>backend develop</h3>
+            <p>1 year of studying js and make projects in web develop  </p>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">contact me</h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" class="box" placeholder="first name">
+            <input type="text" class="box" placeholder="last name">
+            <input type="email" class="box" placeholder="your email">
+            <input type="text" class="box" placeholder="your project">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <input type="submit" value="message" class="btn">
+        </form>
+
+        <div class="content">
+            <div class="icons">
+                <h3><i class="fas fa-map-marker-alt"></i> address </h3>
+                <p>cairo, subra el kheima</p>
+            </div>
+            <div class="icons">
+                <h3><i class="fas fa-envelope"></i> email </h3>
+                <p>ahmed.nasse981@gmail.com</p>
+            </div>
+            <div class="icons">
+                <h3><i class="fas fa-phone"></i> phone </h3>
+                <p>01095192378</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- section education end -->
+
+
+<!-- projects section start -->
+<section class="projects" id="projects">
+<div class="heading">projects</div>
+<div class="iteams">
+    <img class="first" src="/Photo/Screenshot (1).png">
+    <h2 class="hh">home decore</h2>
+    <p>a home decore project using html and css and js with a login and sign up page</p>
+</div>
+</section>
+
+
+
+<!-- projects section end -->
+</div>
+
+
+<div class="theme-toggler">
+    <span style="background: linear-gradient(deeppink, purple);"></span>
+    <span style="background: linear-gradient(lightgreen, crimson);"></span>
+    <span style="background:linear-gradient(blueviolet, deeppink)"></span>
+    <span style="background:linear-gradient(coral, blueviolet)"></span>
+    <span style="background:linear-gradient(#999, #111)"></span>
+</div>
+
+
+
+<!-- type js animation word -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script>
+    var type= new Typed('.typing-text',{
+        strings : ['w','front end developer','web designer','programmer'],
+        typeSpeed:120,
+        loop:true
+    });
+    let themeColor = document.querySelectorAll('.theme-toggler span');
+    themeColor.forEach(color => color.addEventListener('click', () =>{
+        let background = color.style.background;
+        document.querySelector('body').style.background = background;
+    }));
+</script>
+</body>
+</html>
+
